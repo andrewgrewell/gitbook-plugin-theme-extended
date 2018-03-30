@@ -1,23 +1,29 @@
 {
-  "name": "gitbook-plugin-splitter",
-  "version": "0.0.8",
-  "description": "this plug-in provides a vertical bar that divides the summary and main content.",
+  "name": "gitbook-plugin-theme-extended",
+  "version": "0.0.1",
+  "description": "a theme that does a bit more then the default",
   "main": "index.js",
   "engines": {
     "gitbook": ">1.x.x"
   },
-  "scripts": {},
+  "scripts": {
+    "gitbook:serve": "node_modules/gitbook-cli/bin/gitbook.js serve ./example",
+    "gitbook:install": "node_modules/gitbook-cli/bin/gitbook.js install ./example"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yoshidax/gitbook-plugin-splitter.git"
+    "url": "git+https://github.com/andrewgrewell/gitbook-plugin-theme-extended.git"
   },
   "keywords": [
     "gitbook"
   ],
-  "author": "yoshidax",
+  "author": "andrewgrewell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yoshidax/gitbook-plugin-splitter/issues"
+    "url": "https://github.com/andrewgrewell/gitbook-plugin-theme-extended/issues"
   },
-  "homepage": "https://github.com/yoshidax/gitbook-plugin-splitter#readme"
+  "homepage": "https://github.com/andrewgrewell/gitbook-plugin-theme-extended#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
 }

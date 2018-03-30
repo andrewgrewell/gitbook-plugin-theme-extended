@@ -1,0 +1,10 @@
+{
+  "structure": {
+    "readme": "intro.md",
+    "summary": "summary.md",
+    "glossary": "glossary.md"
+  },
+  "plugins": [
+    "splitter"
+  ]
+}

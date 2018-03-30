@@ -5,7 +5,8 @@ module.exports = {
             'splitter.js'
         ],
         css: [
-            'splitter.css'
+            'splitter.css',
+            'styles.css'
         ]
     }
 };
